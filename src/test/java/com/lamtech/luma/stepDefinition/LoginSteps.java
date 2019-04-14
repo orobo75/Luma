@@ -6,7 +6,7 @@ import cucumber.api.java.en.When;
 
 public class LoginSteps {
     @Given("^user on login homepage$")
-    public void userOnLoginHomepage() {
+    public void userOnLoginHomepage() throws Throwable {
     }
 
     @When("^user enter thier \"([^\"]*)\"$")
